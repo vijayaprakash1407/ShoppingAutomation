@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-27T04:11:52.428Z",
+        "line": 3,
+        "name": "User Complete the order",
+        "description": "",
+        "id": "user-should-be-able-to-checkout--pay-and-complete-an-order.;user-complete-the-order",
+        "after": [
+          {
+            "result": {
+              "duration": 295767322,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8759915795,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "LandingPageSteps.i_am_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1379370163,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on signin link",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_signin_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5820836186,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter username and password to select below products",
+            "match": {
+              "location": "LoginPageSteps.i_enter_username_and_password_to_select_below_products(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Section",
+                  "Product"
+                ]
+              },
+              {
+                "cells": [
+                  "Women",
+                  "Faded Short Sleeve T-shirts"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4352636215,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigates to payments page",
+            "match": {
+              "location": "OrderCompleteSteps.i_navigates_to_payments_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3378137728,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I opts \"Pay by bank wire\" payment method",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay by bank wire\"",
+                  "offset": 7
+                }
+              ],
+              "location": "OrderCompleteSteps.i_opts_payment_method(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1724281350,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I confirms the order",
+            "match": {
+              "location": "OrderCompleteSteps.i_confirms_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2545355235,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will be taken to order confirmation page",
+            "match": {
+              "location": "OrderCompleteSteps.i_will_be_taken_to_order_confirmation_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55688472,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I completes the order",
+            "match": {
+              "location": "OrderCompleteSteps.i_completes_the_order()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ordercomplete"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to checkout, pay and complete an order.",
+    "description": "",
+    "id": "user-should-be-able-to-checkout--pay-and-complete-an-order.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OrderComplete.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-27T04:12:20.774Z",
+        "line": 3,
+        "name": "Create a new account for the user Matt, signin to the application and signout",
+        "description": "",
+        "id": "user-should-be-able-to-create-a-new-account-for-the-application--signin-and-signout.;create-a-new-account-for-the-user-matt--signin-to-the-application-and-signout",
+        "after": [
+          {
+            "result": {
+              "duration": 207218732,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5337258980,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "LandingPageSteps.i_am_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1643805471,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on signin link",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_signin_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6438597342,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter details for registers as a new user of the application",
+            "match": {
+              "location": "RegisterPageSteps.i_enter_details_for_registers_as_a_new_user_of_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198652261,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should get logged into the application",
+            "match": {
+              "location": "MyAccountPageSteps.i_should_get_logged_into_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274008773,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to view his account page",
+            "match": {
+              "location": "MyAccountPageSteps.i_should_be_able_to_view_his_account_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1781206352,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I view the sign out option",
+            "match": {
+              "location": "MyAccountPageSteps.i_view_the_sign_out_option()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newuser"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to create a new account for the application, signin and signout.",
+    "description": "",
+    "id": "user-should-be-able-to-create-a-new-account-for-the-application--signin-and-signout.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Register.feature",
+    "tags": []
+  }
+]
