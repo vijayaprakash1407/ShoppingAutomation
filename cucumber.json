@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-12-27T04:11:52.428Z",
+        "start_timestamp": "2019-12-27T04:53:19.344Z",
         "line": 3,
         "name": "User Complete the order",
         "description": "",
@@ -11,7 +11,7 @@
         "after": [
           {
             "result": {
-              "duration": 295767322,
+              "duration": 201468222,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8759915795,
+              "duration": 7615771024,
               "status": "passed"
             },
             "line": 4,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1379370163,
+              "duration": 1258217894,
               "status": "passed"
             },
             "line": 5,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 5820836186,
+              "duration": 5011088277,
               "status": "passed"
             },
             "line": 6,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 4352636215,
+              "duration": 3040349462,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 3378137728,
+              "duration": 2010866500,
               "status": "passed"
             },
             "line": 10,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 1724281350,
+              "duration": 951295078,
               "status": "passed"
             },
             "line": 11,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 2545355235,
+              "duration": 1936437512,
               "status": "passed"
             },
             "line": 12,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 55688472,
+              "duration": 50596154,
               "status": "passed"
             },
             "line": 13,
@@ -136,7 +136,7 @@
             "match": {
               "location": "OrderCompleteSteps.i_completes_the_order()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -157,7 +157,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-12-27T04:12:20.774Z",
+        "start_timestamp": "2019-12-27T04:53:41.452Z",
         "line": 3,
         "name": "Create a new account for the user Matt, signin to the application and signout",
         "description": "",
@@ -165,7 +165,7 @@
         "after": [
           {
             "result": {
-              "duration": 207218732,
+              "duration": 215054036,
               "status": "passed"
             },
             "match": {
@@ -178,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5337258980,
+              "duration": 4569359233,
               "status": "passed"
             },
             "line": 4,
@@ -190,7 +190,7 @@
           },
           {
             "result": {
-              "duration": 1643805471,
+              "duration": 1954455364,
               "status": "passed"
             },
             "line": 5,
@@ -202,7 +202,7 @@
           },
           {
             "result": {
-              "duration": 6438597342,
+              "duration": 5406098414,
               "status": "passed"
             },
             "line": 6,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 198652261,
+              "duration": 168188291,
               "status": "passed"
             },
             "line": 7,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 274008773,
+              "duration": 34177193,
               "status": "passed"
             },
             "line": 8,
@@ -238,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 1781206352,
+              "duration": 1586738069,
               "status": "passed"
             },
             "line": 9,

@@ -100,7 +100,7 @@ formatter.result({
 });
 formatter.step({
   "name": "I completes the order",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "OrderCompleteSteps.i_completes_the_order()"

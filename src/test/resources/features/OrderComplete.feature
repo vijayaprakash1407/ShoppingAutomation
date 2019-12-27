@@ -10,5 +10,5 @@ Feature: User should be able to checkout, pay and complete an order.
     And I opts "Pay by bank wire" payment method
     And I confirms the order
     And I will be taken to order confirmation page
-    And I completes the order
+    Then I completes the order
 
